@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EngineerCalcApp</string>
+    <string name="app_clear">C</string>
+    <string name="app_plusOrMinus">±</string>
+    <string name="app_percent">%</string>
+    <string name="app_division">÷</string>
+    <string name="app_seven">7</string>
+    <string name="app_eight">8</string>
+    <string name="app_nine">9</string>
+    <string name="app_multiplication">×</string>
+    <string name="app_four">4</string>
+    <string name="app_five">5</string>
+    <string name="app_six">6</string>
+    <string name="app_subtraction">-</string>
+    <string name="app_one">1</string>
+    <string name="app_two">2</string>
+    <string name="app_three">3</string>
+    <string name="app_addition">+</string>
+    <string name="app_zero">0</string>
+    <string name="app_dot">.</string>
+    <string name="app_equally">=</string>
+    <string name="app_error">Ошибка: деление на 0</string>
+</resources>
