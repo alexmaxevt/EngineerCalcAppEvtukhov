@@ -20,4 +20,19 @@
     <string name="app_dot">.</string>
     <string name="app_equally">=</string>
     <string name="app_error">Ошибка: деление на 0</string>
+    <string name="app_rad">R</string>
+    <string name="app_sqrt">√</string>
+    <string name="app_sin">sin</string>
+    <string name="app_cos">cos</string>
+    <string name="app_tan">tan</string>
+    <string name="app_ln">ln</string>
+    <string name="app_log">ln</string>
+    <string name="app_inverseNumber">1/x</string>
+    <string name="app_module">|x|</string>
+    <string name="app_PI">π</string>
+    <string name="app_e">e</string>
+    <string name="app_factorial">!n</string>
+    <string name="app_eInDegree">e^x</string>
+    <string name="app_xSquare">x^2</string>
+    <string name="app_xInDegree">x^y</string>
 </resources>

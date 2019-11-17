@@ -36,7 +36,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="!n"
+                android:text="@string/app_factorial"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -46,7 +46,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="R"
+                android:text="@string/app_rad"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -56,7 +56,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="√"
+                android:text="@string/app_sqrt"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -110,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="sin"
+                android:text="@string/app_sin"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -120,7 +120,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="cos"
+                android:text="@string/app_cos"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -130,7 +130,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="tan"
+                android:text="@string/app_tan"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
             <TextView
@@ -184,7 +184,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="ln"
+                android:text="@string/app_ln"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -194,7 +194,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="log"
+                android:text="@string/app_log"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -204,7 +204,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="1/x"
+                android:text="@string/app_inverseNumber"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
             <TextView
@@ -259,7 +259,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="e^x"
+                android:text="@string/app_eInDegree"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -269,7 +269,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="x^2"
+                android:text="@string/app_xSquare"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -279,7 +279,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="x^y"
+                android:text="@string/app_xInDegree"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
             <TextView
@@ -332,7 +332,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="|x|"
+                android:text="@string/app_module"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -342,7 +342,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="π"
+                android:text="@string/app_PI"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
 
@@ -352,14 +352,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border_num_engineer"
-                android:text="e"
+                android:text="@string/app_e"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
             <TextView
                 android:id="@+id/zero"
                 android:layout_width="@dimen/num_width"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:background="@drawable/border_num"
                 android:text="@string/app_zero"
                 android:textSize="@dimen/num_textSizeLand"
@@ -382,13 +382,6 @@
                 android:text="@string/app_equally"
                 android:textSize="@dimen/num_textSizeLand"
                 android:gravity="center"/>
-            <ImageButton
-                android:id="@+id/engineer"
-                android:layout_width="@dimen/num_width"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/baseline_iso_black_18dp"
-                android:background="@drawable/border_action" />
         </LinearLayout>
 
     </RelativeLayout>

@@ -213,7 +213,7 @@
                 android:id="@+id/zero"
                 android:layout_width="@dimen/num_width"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:background="@drawable/border_num"
                 android:text="@string/app_zero"
                 android:textSize="@dimen/num_textSize"
@@ -236,13 +236,6 @@
                 android:text="@string/app_equally"
                 android:textSize="@dimen/num_textSize"
                 android:gravity="center"/>
-            <ImageButton
-                android:id="@+id/engineer"
-                android:layout_width="@dimen/num_width"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/baseline_iso_black_18dp"
-                android:background="@drawable/border_action" />
         </LinearLayout>
 
     </RelativeLayout>

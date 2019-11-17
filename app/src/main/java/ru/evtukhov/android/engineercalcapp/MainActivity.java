@@ -3,11 +3,8 @@ package ru.evtukhov.android.engineercalcapp;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,14 +15,12 @@ public class MainActivity extends AppCompatActivity {
     private Float num2;
     private Float result;
     private String operator;
-    private ImageButton engineerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        engineerCalc();
     }
 
     private void initView() {
@@ -206,21 +201,5 @@ public class MainActivity extends AppCompatActivity {
                 screen.append(number);
             }
         };
-    }
-
-    private void engineerCalc() {
-        engineerView = findViewById(R.id.engineer);
-        engineerView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
-                if (displayMetrics.widthPixels > displayMetrics.heightPixels) {
-                    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-                }
-                else {
-                    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-                }
-            }
-        });
     }
 }
